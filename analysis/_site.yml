@@ -1,0 +1,19 @@
+name: "Wagner_Curso_GitHub"
+output_dir: ../docs
+navbar:
+  title: "Wagner_Curso_GitHub"
+  left:
+  - text: Home
+    href: index.html
+  - text: About
+    href: about.html
+  - text: PCA
+    href: PCA.html
+  - text: License
+    href: license.html
+output:
+  workflowr::wflow_html:
+    toc: yes
+    toc_float: yes
+    theme: cosmo
+    highlight: textmate
